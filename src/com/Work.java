@@ -3,6 +3,6 @@ package com;
 
 public class Work {
 	public static void main(){
-		System.out.print("hello");
+		System.out.print("hello1");
 	}
 }
