@@ -1,0 +1,138 @@
+
+
+
+
+//1. return statement in try catch and finally 
+class Test 
+{	
+  	public static void main(String args[]){ 
+		int i=main1();
+		System.out.println(i);
+	}
+	
+    public static int main1(){  
+		try{
+			System.out.println("try");
+			int i=5/4;	
+			return i;
+		}
+		catch(Exception e){
+			System.out.println("catch");
+			return 12;			
+		}
+		finally{
+			System.out.println("finaly");	
+			//return 13;				
+		}
+		//return 14;	
+    }  
+}
+// 2. String.valueOf(1) method coverts given type such as int, long, float, double, boolean, char and char array into string
+
+//3. String buffer - Synchronized,append,delete,insert,reverse,capacity etc
+
+// 4. String builder - Non Synchronized,same as string buffer
+
+// 5. Immutable - class final, Variable final, not setter, 
+
+// 6. Enum - implement many interfaces but cannot extend any class because it internally extends Enum class
+
+
+// 7. Generic in Java - type safety, compile time check, Type casting is not required
+
+T - Type
+E - Element
+K - Key
+N - Number
+V - Value
+
+
+
+Generic class
+
+import static 
+class Gen<T>{
+	T obj;
+	void add(T obj){
+		this.obj=obj;
+	}	
+	T getGen(){
+		 return this.obj;
+	}
+}
+class Test<T>
+{	
+
+    public static void main(String obj[]){  
+		Gen<Integer> gen =new Gen<Integer>();
+		gen.add(11);
+		out.println();
+    }  
+}
+
+
+Generic method
+
+
+class Test
+{	
+	public static <E> void check(E e){
+		System.out.println(e);
+	}
+
+    public static void main(String obj[]){  
+		check("String");
+		check(1);
+		check(1.1);
+	}  
+}
+
+
+Wild Card method(List<? extends Shape> list)
+
+
+
+8. public class java.sql.Date extends java.util.Date
+
+
+java.sql.Date - toString() yyyy-mm-dd date format
+java.sql.Date - valueOf()  convert String into date
+java.sql.Date - getters and setter for hours, minutes and seconds are deprecated
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

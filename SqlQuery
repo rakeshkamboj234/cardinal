@@ -1,0 +1,1 @@
+Table hierarchy -  SELECT e1.name as manager,e2.name as employee FROM `Check` e1 join `Check` e2 WHERE e1.eid = e2.mid

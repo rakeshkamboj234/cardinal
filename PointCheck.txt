@@ -1,0 +1,3 @@
+Immutable allow hashCode to use lazy initialization, and to cache its return value
+
+deep copy Constructot
